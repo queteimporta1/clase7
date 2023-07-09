@@ -1,0 +1,80 @@
+h1 {
+    font-size: 40px;
+}
+h2 {
+    font-size: 25px;
+}
+h3 {
+    font-size: 15px;
+}
+.contenedor {
+    margin-top: 1%;
+}
+.bloque {
+    margin-top: 15px;
+    width: 80%;
+    padding-left: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+a {
+    color: blue;
+}
+ul {
+    list-style: none;
+}
+li {
+    float: left;
+    background-color: blue;
+    color: white;
+    border: 1px solid black;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+.pos {
+    background-color: white;
+    color: blue;
+}
+.card {
+    width: 95%;
+    height: 100px;
+    background-color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 9px;
+}
+.card-header {
+    text-align: center;
+    color: #645857;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.card-body {
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-size: 25px;
+}
+.izquierdo-boton {
+    float: left;
+    padding: 10px 15px;
+    background-color: #228BA6;
+    margin-top: 35px;
+}
+.derecho-boton {
+    float: right;
+    padding: 10px 15px;
+    background-color: #228BA6;
+    margin-top: 35px;
+}
+button:hover {
+    background-color: blue;
+}
+input {
+    height: 20px;
+    border-radius: 7px;
+    color: black;
+}

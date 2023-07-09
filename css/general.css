@@ -1,0 +1,51 @@
+div, html, body, section, article, img, h1, h2, h3, h4, h5, input, button, label {
+    margin: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+body {
+    background-color: #332D2C;
+}
+.sector1 {
+    width: 65%;
+    height: 660px;
+    float: left;
+}
+.sector2 {
+    width: 35%;
+    height: 100%;
+    float: left;
+}
+#izquierdo {
+    width: 100%;
+    height: 100%;
+}
+.row {
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+.centrado {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.col-3 {
+    width: 25%;
+    float: left;
+}
+.col-6 {
+    width: 50%;
+    float: left;
+}
+.col-4 {
+    width: 33.33%;
+    float: left;
+}
+.col-8 {
+    width: 66.66%;
+    float: left;
+}
+.Ajuste {
+    width: 90%;
+}

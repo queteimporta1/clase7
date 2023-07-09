@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <section>
+        <article class="sector1">
+            <img src="img/fondo2.jpg" alt="" id="izquierdo">
+        </article>
+        <article class="sector2">
+            <div class="contenedor">
+                <div class="row">
+                    <h1 class="centrado">LOGIN</h1>
+                </div>
+                <div class="row">
+                    <h3 class="centrado">Inicia sesion con tus datos</h3>
+                </div>
+                <div class="bloque">
+                    <form action="vistas/crearCita.html">
+                        <div class="row">
+                            <div class="col-3">
+                                <label for="">Email</label>
+                            </div>
+                            <div class="col-8">
+                                <input type="email" id="correo" class="Ajuste" placeholder="Tu Email" required>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="col-3">
+                                <label for="">Password</label>
+                            </div>
+                            <div class="col-8">
+                                <input type="password" id="password" class="Ajuste" placeholder="Tu Password" required>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <button type="submit" id="iniciarSesion">
+                                Iniciar Sesion
+                            </button>
+                        </div>
+                    </form>
+                    <div class="row centrado">
+                        <a href="vistas/registrar.html">¿Aun no tienes una cuenta? Crea Una</a>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </section>
+</body>
+</html>
